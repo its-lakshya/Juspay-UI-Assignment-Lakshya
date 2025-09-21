@@ -1,6 +1,9 @@
 # Juspay UI Developer Assignment - Lakshya Kumar Verma
 
-This repository contains a React Dashboard application developed using React and styled-components. The project is built with Vite as the web bundler and hosted on Netlify. You can view the live application [here](https://juspay-ui-dashboard-lakshya.netlify.app).
+This repository contains a React Dashboard application developed using React and styled-components. The project is built with Vite as the web bundler and hosted on Netlify. You can view the live application below:
+- [Live Application](https://juspay-ui-dashboard-lakshya.netlify.app)
+- [Video Walthrough](https://res.cloudinary.com/dhaoqsmcn/video/upload/v1758459814/Juspay-UI-Developer-Assignment-Lakshya_sglxtu.mp4)
+
 
 ## **Technologies used :**
 
