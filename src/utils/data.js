@@ -3,17 +3,17 @@ import {
   PiUserLight,
   PiBroadcastLight,
 } from "react-icons/pi";
-import user1 from "../assets/user1.png";
-import user2 from "../assets/user2.png";
-import user3 from "../assets/user3.png";
-import user4 from "../assets/user4.png";
-import user5 from "../assets/user5.png";
-import profile1 from "../assets/profile1.png";
-import profile2 from "../assets/profile2.png";
-import profile3 from "../assets/profile3.png";
-import profile4 from "../assets/profile4.png";
-import profile5 from "../assets/profile5.png";
-import profile6 from "../assets/profile6.png";
+import user1 from "../assets/images/user1.png";
+import user2 from "../assets/images/user2.png";
+import user3 from "../assets/images/user3.png";
+import user4 from "../assets/images/user4.png";
+import user5 from "../assets/images/user5.png";
+import profile1 from "../assets/images/profile1.png";
+import profile2 from "../assets/images/profile2.png";
+import profile3 from "../assets/images/profile3.png";
+import profile4 from "../assets/images/profile4.png";
+import profile5 from "../assets/images/profile5.png";
+import profile6 from "../assets/images/profile6.png";
 
 export const statusCard = [
   {

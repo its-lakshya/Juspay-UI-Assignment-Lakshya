@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { toggleTheme } from "../../store/themeSlice";
 
 import DashboardRouter from "./DashboardRouter";
-import userProfile from "../../assets/userProfile.png";
+import userProfile from "../../assets/images/userProfile.png";
 
 import StarIcon from "../../assets/icons/Star.svg?react";
 import NotificationIcon from "../../assets/icons/Notification.svg?react";

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { LiaAngleRightSolid } from "react-icons/lia";
 import { useNavigate } from "react-router-dom";
-import userProfile from "../../assets/userProfile.png";
+import userProfile from "../../assets/images/userProfile.png";
 
 import AccountIcon from "../../assets/icons/Account.svg?react";
 import BlogIcon from "../../assets/icons/Blog.svg?react";
