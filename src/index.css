@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import "tailwindcss";
+
+/* Optional: import other Tailwind plugins if needed */
+/* @import "tw-animate-css"; */
+
+/* Custom variant for dark mode inside `.dark` */
+@custom-variant dark (&:is(.dark *));
+
+/* Theme variables map to root variables */
+@theme inline {
+  --color-text-muted: var(--text-muted);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+
+  --color-bg-base: var(--bg-base);
+  --color-bg-hover: var(--bg-hover);
+  --color-bg-surface-light: var(--bg-surface-light);
+  --color-bg-surface-blue-light: var(--bg-surface-blue-light);
+  --color-bg-surface-blue-lighter: var(--bg-surface-blue-lighter);
+  --color-bg-surface-dark: var(--bg-surface-dark);
+  --color-bg-surface-purple: var(--bg-surface-purple);
+  --color-bg-surface-blue: var(--bg-surface-blue);
+  --color-bg-surface-green: var(--bg-surface-green);
+  --color-bg-secondary-cyan: var(--bg-secondary-cyan);
+
+  --color-border-primary: var(--border-primary);
+
+  --radius-lg: var(--radius-lg);
+  --radius-md: var(--radius-md);
+}
+
+/* Define root variables for light mode */
+:root {
+  --radius-lg: 16px;
+  --radius-md: 8px;
+
+  --text-muted: #1C1C1C54;        /* ~33% opacity */
+  --text-primary: #1C1C1C;
+  --text-secondary: #1C1C1C99;    /* ~60% opacity */
+
+  --bg-base: #FFFFFF;
+  --bg-hover: #1C1C1C0D;           /* ~5% opacity */
+  --bg-surface-light: #F7F9FB;
+  --bg-surface-blue-light: #E3F5FF;
+  --bg-surface-blue-lighter: #E5ECF6;
+  --bg-surface-dark: #1C1C1C;
+  --bg-surface-purple: #95A4FC;
+  --bg-surface-blue: #B1E3FF;
+  --bg-surface-green: #BAEDBD;
+  --bg-secondary-cyan: #A8C5DA;
+  
+  --border-primary: #1C1C1C1A;     /* ~10% opacity */
+}
+
+/* Dark mode overrides */
+.dark {
+  --text-primary: #FFFFFF;
+  --text-secondary: #FFFFFF99;
+  --text-muted: #FFFFFF54;
+  
+  --bg-base: #1C1C1C;
+  --bg-hover: #FFFFFF1A;            /* 10% opacity white */
+  --bg-surface-light: #FFFFFF0D;    /* 5% opacity white */
+  --bg-surface-blue-light: #E3F5FF;
+  --bg-surface-blue-lighter: #E5ECF6;
+  --bg-surface-dark: #C6C7F8;
+  --bg-surface-purple: #C6C7F8;
+  --bg-surface-blue: #B1E3FF;
+  --bg-surface-green: #BAEDBD;
+  --bg-secondary-cyan: #A8C5DA;
+
+  --border-primary: #FFFFFF1A;       /* 10% opacity white */
+}
+
+/* Base styles with Tailwind utilities */
+@layer base {
+  * {
+    @apply border-border-primary outline-text-primary;
+    outline-offset: 2px;
+  }
+
+  body {
+    @apply bg-bg-base text-text-primary font-sans;
+  }
+}
+
+/* Active tab styles */
+.active-tab {
+  position: relative;
+  background-color: var(--bg-surface-light);
+}
+
+.dark .active-tab {
+  background-color: var(--bg-surface-dark);
+}
+
+.active-tab::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 16px;
+  background-color: var(--text-primary);
+  border-radius: 25%;
+}
+
+.dark .active-tab::before {
+  background-color: var(--bg-surface-purple-light);
+}
+
+/* Accessibility fixes */
+.recharts-area:focus,
+.recharts-tooltip-wrapper:focus,
+.recharts-cartesian-grid:focus,
+.recharts-surface:focus {
+  outline: none;
+}
+
+
+.selected-icon path,
+.selected-icon rect,
+.selected-icon circle,
+.selected-icon polygon,
+.selected-icon line,
+.selected-icon ellipse {
+  fill: currentColor !important;
+}
