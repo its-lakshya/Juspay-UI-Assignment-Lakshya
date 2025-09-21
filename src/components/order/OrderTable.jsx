@@ -93,8 +93,8 @@ const OrderTable = ({ searchedOrder, isSortByStatus, currentPage }) => {
   };
 
   return (
-    <div className="relative overflow-x-auto sm:rounded-lg text-text-primary text-xs">
-      <table className="w-full text-sm text-left rtl:text-right">
+    <div className="w-full text-text-primary text-xs">
+      <table className="w-full text-sm text-left rtl:text-right min-w-[768px]">
         <thead>
           <tr className="border-b-[1.3px] border-border-primary text-text-muted text-xs [&>*]:font-light [&>*]:text-xs">
             <th className="px-2 py-2">

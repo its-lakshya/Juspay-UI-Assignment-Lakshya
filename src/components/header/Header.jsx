@@ -44,7 +44,7 @@ const Header = () => {
           {[MenuIcon, StarIcon].map((Icon, idx) => (
             <span
               key={idx} // Add key to the list
-              className="size-7 hidden md:flex md:items-center md:justify-center rounded-md cursor-pointer transition-transform hover:scale-105 duration-500 ease-in-out text-current hover:bg-bg-hover"
+              className="size-7 flex items-center justify-center rounded-md cursor-pointer transition-transform hover:scale-105 duration-500 ease-in-out text-current hover:bg-bg-hover"
               onClick={() => {idx === 0 ? handleLeftSidebarVisibility() : null}}
             >
               <Icon className="size-5 fill-current selected-icon" />
@@ -74,7 +74,7 @@ const Header = () => {
           {[LightModeIcon, ClockIcon, NotificationIcon, MenuIcon].map((Icon, idx) => (
             <span
               key={idx}  // Add key to the list
-              className="size-7 hidden md:flex md:items-center md:justify-center rounded-md cursor-pointer transition-transform hover:scale-105 duration-500 ease-in-out hover:bg-bg-hover"
+              className="size-7 flex items-center justify-center rounded-md cursor-pointer transition-transform hover:scale-105 duration-500 ease-in-out hover:bg-bg-hover"
               onClick={() => {
                 idx === 0 ? dispatch(toggleTheme()) : null;
                 idx === 3 ? handleRightSidebarVisibility() : null;

@@ -10,7 +10,6 @@ const layoutSlice = createSlice({
   initialState,
   reducers: {
     toggleLeftSidebar(state) {
-      console.log(state)
       state.leftSidebarVisible = !state.leftSidebarVisible;
       localStorage.setItem("leftSidebar", JSON.stringify(state.leftSidebarVisible));
     },

@@ -24,7 +24,7 @@ const DashboardRouter = () => {
           {currentPath[0] || "Default"}
         </span>
       </div>
-      <div className="flex md:hidden items-center gap-2">
+      {/* <div className="flex md:hidden items-center gap-2">
         <p
           className={`cursor-pointer rounded-md px-2 py-1 ${
             currentPath[0] === undefined ? "bg-bg-surface-blue-light" : "bg-bg-surface-light"
@@ -41,7 +41,7 @@ const DashboardRouter = () => {
         >
           Order List
         </p>
-      </div>
+      </div> */}
     </>
   );
 };

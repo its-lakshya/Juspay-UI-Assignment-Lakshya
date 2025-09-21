@@ -4,12 +4,13 @@ import Contacts from "./Contacts";
 
 const RightSideBar = () => {
   return (
-    <div className="col-span-4 p-5 gap-y-6 hidden xl:grid">
+    <div className="xl:grid col-span-4 p-5 gap-y-6">
       <Notifications />
       <Activities />
       <Contacts />
     </div>
   );
 };
+
 
 export default RightSideBar;
