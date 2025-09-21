@@ -70,12 +70,12 @@ Make sure you have the following installed:
 <img width="1470" height="956" alt="Screenshot 2025-09-21 at 5 31 28 PM" src="https://github.com/user-attachments/assets/db55ff84-938e-4984-ad6c-319f36f20356" />
 <img width="1470" height="956" alt="Screenshot 2025-09-21 at 5 29 42 PM" src="https://github.com/user-attachments/assets/8e0a4f21-aa58-478c-87b5-93c3c5091599" />
 <img width="1470" height="956" alt="Screenshot 2025-09-21 at 5 31 37 PM" src="https://github.com/user-attachments/assets/1b465e33-fb23-4b27-9098-bf6f9c04926c" />
-<img width="500" height="677" alt="Screenshot 2025-09-21 at 5 38 59 PM" src="https://github.com/user-attachments/assets/335947e3-7e05-429e-8389-4772967e681e" />
-<img width="489" height="674" alt="Screenshot 2025-09-21 at 5 39 22 PM" src="https://github.com/user-attachments/assets/e692b291-c658-473c-b920-3f621dc6acb3" />
-<img width="487" height="674" alt="Screenshot 2025-09-21 at 5 39 11 PM" src="https://github.com/user-attachments/assets/24436a84-eb7b-45b4-aa58-8d11d5649ac0" />
-<img width="500" height="673" alt="Screenshot 2025-09-21 at 5 39 34 PM" src="https://github.com/user-attachments/assets/47f85f47-b316-4353-80d5-7025a072c793" />
-<img width="500" height="5168" alt="localhost_5173_ (1)" src="https://github.com/user-attachments/assets/a34e5ccc-bc1b-4cad-8e51-8036a50b34cc" />
-<img width="500" height="5168" alt="localhost_5173_" src="https://github.com/user-attachments/assets/834cd713-c83e-4943-ba03-3ca52a83cbe9" />
+<img width="300" height="677" alt="Screenshot 2025-09-21 at 5 38 59 PM" src="https://github.com/user-attachments/assets/335947e3-7e05-429e-8389-4772967e681e" />
+<img width="300" height="674" alt="Screenshot 2025-09-21 at 5 39 22 PM" src="https://github.com/user-attachments/assets/e692b291-c658-473c-b920-3f621dc6acb3" />
+<img width="300" height="674" alt="Screenshot 2025-09-21 at 5 39 11 PM" src="https://github.com/user-attachments/assets/24436a84-eb7b-45b4-aa58-8d11d5649ac0" />
+<img width="300" height="673" alt="Screenshot 2025-09-21 at 5 39 34 PM" src="https://github.com/user-attachments/assets/47f85f47-b316-4353-80d5-7025a072c793" />
+<img width="300" height="5168" alt="localhost_5173_ (1)" src="https://github.com/user-attachments/assets/a34e5ccc-bc1b-4cad-8e51-8036a50b34cc" />
+<img width="300" height="5168" alt="localhost_5173_" src="https://github.com/user-attachments/assets/834cd713-c83e-4943-ba03-3ca52a83cbe9" />
 
 <!-- 
 
