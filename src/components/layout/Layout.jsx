@@ -53,7 +53,7 @@ const Layout = () => {
   // Determine column span for main content
   const getContentColSpan = () => {
     if (showLeft && showRight) return "col-span-13";
-    if (showLeft) return "col-span-16";
+    if (showLeft) return "xl:col-span-17 col-span-16";
     if (showRight) return "col-span-16";
     return "col-span-20";
   };
