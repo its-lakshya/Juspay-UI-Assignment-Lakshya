@@ -52,7 +52,7 @@ const Metrics = () => {
         <h6 className={`px-6 text-sm font-semibold text-text-primary`} >
           Projections vs Actuals
         </h6>
-        <ResponsiveContainer width={"100%"} height={"100%"}  className='text-text-muted -ml-2'>
+        <ResponsiveContainer width={"100%"} height={"100%"} className='text-text-muted -ml-2'>
           <BarChart width={"110%"}  data={BarData} className='w-full h-full'>
             <CartesianGrid
               stroke={`currentColor`}

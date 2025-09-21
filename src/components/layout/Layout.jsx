@@ -21,7 +21,7 @@ const Layout = () => {
   const isRightSidebarVisible = useSelector((state) => state.layout.rightSidebarVisible);
   const isLeftSidebarVisible = useSelector((state) => state.layout.leftSidebarVisible);
 
-  const { isMobile, isTablet, isBelowLg } = useScreenSize();
+  const { isTablet, isBelowLg } = useScreenSize();
 
   const currentPath = location.pathname?.split("/").filter((path) => path !== "");
 

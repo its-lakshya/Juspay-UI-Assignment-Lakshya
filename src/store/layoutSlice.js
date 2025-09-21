@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   leftSidebarVisible: JSON.parse(localStorage.getItem("leftSidebar")) ?? true,
-  rightSidebarVisible: JSON.parse(localStorage.getItem("rightSidebar")) ?? false,
+  rightSidebarVisible: JSON.parse(localStorage.getItem("rightSidebar")) ?? true,
 };
 
 const layoutSlice = createSlice({
