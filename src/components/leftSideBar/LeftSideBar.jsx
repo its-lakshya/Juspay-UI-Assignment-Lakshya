@@ -61,7 +61,7 @@ const LeftSideBar = () => {
   };
 
   return (
-    <section className="hidden py-5 px-4 md:col-span-2 xl:grid gap-y-4 text-sm font-light animate-fade">
+    <section className="hidden py-5 px-4 md:col-span-3 xl:grid gap-y-4 text-sm font-light animate-fade">
       {/* User Profile */}
       <figure className="p-1 flex items-center gap-2">
         <img

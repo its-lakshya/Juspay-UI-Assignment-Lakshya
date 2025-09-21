@@ -1,11 +1,11 @@
 import { useEffect, useRef } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import { Outlet, useLocation } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
+import { setRightSidebar } from "../../store/layoutSlice";
 import Header from "../Header/Header";
 import LeftSideBar from "../leftSideBar/LeftSideBar";
 import RightSideBar from "../rightSidebar/RightSideBar";
-import { useDispatch, useSelector } from "react-redux";
-import { setRightSidebar } from "../../store/layoutSlice";
 
 const Layout = () => {
   const location = useLocation();
@@ -38,16 +38,22 @@ const Layout = () => {
   }, [currentPath, dispatch]);
 
   return (
-    <section className="min-h-screen w-full font-Inter scroll-smooth grid grid-cols-12 items-start animate-fade bg-bg-base">
-      {isLeftSidebarVisible && <LeftSideBar />}
+    <section className="min-h-screen w-full font-Inter scroll-smooth grid grid-cols-20 items-start animate-fade bg-bg-base">
+      {isLeftSidebarVisible && (
+        <div className="col-span-3">
+          <LeftSideBar />
+        </div>
+      )}
 
       <div
         className={`border-x-[1px] border-border-primary min-h-screen ${
           isLeftSidebarVisible && isRightSidebarVisible
-            ? "col-span-8"
-            : isLeftSidebarVisible || isRightSidebarVisible
-            ? "col-span-10"
-            : "col-span-12"
+            ? "col-span-13"
+            : isLeftSidebarVisible
+            ? "col-span-17"
+            : isRightSidebarVisible
+            ? "col-span-16"
+            : "col-span-20"
         }`}
       >
         <Header />
@@ -56,7 +62,12 @@ const Layout = () => {
         </div>
       </div>
 
-      {isRightSidebarVisible && <RightSideBar />}
+      {isRightSidebarVisible && (
+        <div className="col-span-4">
+          <RightSideBar />
+        </div>
+      )}
+
       <ToastContainer />
     </section>
   );
